@@ -18,6 +18,7 @@ body::-webkit-scrollbar {
   align-items: center;
   border-bottom: 1px solid #b2e1ff;
   margin: 0px 8rem;
+  max-width: 1320px;
 }
 
 .openlabCommunityButton {
@@ -33,18 +34,17 @@ body::-webkit-scrollbar {
 .buttonImage {
   vertical-align: middle;
 }
-.prvaSekcia {
-  width: 100%s;
-  background-color: #2baaf9;
-  color: whitesmoke;
-}
 
 .druhyHeader {
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+.navbar {
   display: flex;
   padding: 0;
   margin: 1rem 0;
   align-items: center;
-  justify-content: center;
 }
 
 .headerImage {
@@ -68,32 +68,45 @@ body::-webkit-scrollbar {
   padding: 0.9rem 1.5rem;
   font-weight: bold;
   font-size: 0.9rem;
-  margin-left: 1.5rem;
+  margin-left: 15rem;
 }
 
 .prvaSekcia {
   margin-top: 0;
   height: 30rem;
   align-items: center;
-  justify-content: center;
+  width: 100%;
+  background-color: #2baaf9;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 1920px;
+  max-height: 400px;
+}
+
+.prvaSekciaText {
+  padding-right: 8rem;
+  max-width: 30%;
 }
 
 .prvyText {
   margin-top: 0;
   width: 30rem;
   font-weight: normal;
+  font-size: 2.5rem;
 }
 
 .druhyText {
   width: 25rem;
-  font-size: small;
+  font-size: 0.8rem;
   font-weight: lighter;
 }
 
 .prvyObrazok {
-  width: rem;
+  width: auto;
   height: auto;
-}
-.prvaSekciaText {
-  padding: 8rem 5rem;
+  max-width: 50%;
+  max-height: 100%;
+  display: block;
 }
