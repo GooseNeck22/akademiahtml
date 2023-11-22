@@ -11,14 +11,14 @@ body::-webkit-scrollbar {
   margin-right: 48px;
 }
 .prvyHeader {
+  max-width: 1320px;
   display: flex;
   padding: 0.5rem;
   justify-content: center;
   font-size: 13px;
   align-items: center;
   border-bottom: 1px solid #b2e1ff;
-  margin: 0px 8rem;
-  max-width: 1320px;
+  margin: auto;
 }
 
 .openlabCommunityButton {
@@ -43,7 +43,7 @@ body::-webkit-scrollbar {
 .navbar {
   display: flex;
   padding: 0;
-  margin: 1rem 0;
+  margin: 1rem auto;
   align-items: center;
 }
 
@@ -113,7 +113,7 @@ body::-webkit-scrollbar {
 
 .druhaSekcia {
   max-width: 1320px;
-  margin: 5rem 10%;
+  margin: 5rem auto;
 }
 
 .druhaSekciaText {
@@ -127,28 +127,34 @@ body::-webkit-scrollbar {
   flex-wrap: wrap;
   font-size: 16px;
   text-align: center;
+  max-width: 1320px;
+  margin: auto;
 }
 
 .blocky {
-  padding: 5rem 10%;
+  margin: 5rem auto;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .prvyBlock {
   display: block;
   width: 20rem;
-  margin: 10px;
+  margin: auto;
+  justify-content: center;
 }
 
 .druhyBlock {
   display: block;
   width: 20rem;
-  margin: 10px;
+  margin: auto;
+  justify-content: center;
 }
 
 .tretiBlock {
   display: block;
   width: 20rem;
-  margin: 10px;
+  margin: auto;
+  justify-content: center;
 }
