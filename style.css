@@ -22,8 +22,8 @@ body::-webkit-scrollbar {
 }
 
 .openlabCommunityButton {
-  background-color: #e7e7e7;
-  color: #b8b8b8;
+  background-color: #f0f0f1;
+  color: #9aa2ab;
   padding: 0.5rem;
   border-radius: 30rem;
   border: 0;
@@ -61,7 +61,7 @@ body::-webkit-scrollbar {
 }
 
 .druhyButton {
-  background-color: #2baaf9;
+  background-color: #3597ff;
   color: whitesmoke;
   border: 0;
   border-radius: 0.5rem;
@@ -76,7 +76,7 @@ body::-webkit-scrollbar {
   height: 30rem;
   align-items: center;
   width: 100%;
-  background-color: #2baaf9;
+  background-color: #3597ff;
   color: whitesmoke;
   display: flex;
   flex-direction: row;
@@ -109,4 +109,46 @@ body::-webkit-scrollbar {
   max-width: 50%;
   max-height: 100%;
   display: block;
+}
+
+.druhaSekcia {
+  max-width: 1320px;
+  margin: 5rem 10%;
+}
+
+.druhaSekciaText {
+  text-align: center;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.dlhyText {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  text-align: center;
+}
+
+.blocky {
+  padding: 5rem 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.prvyBlock {
+  display: block;
+  width: 20rem;
+  margin: 10px;
+}
+
+.druhyBlock {
+  display: block;
+  width: 20rem;
+  margin: 10px;
+}
+
+.tretiBlock {
+  display: block;
+  width: 20rem;
+  margin: 10px;
 }
