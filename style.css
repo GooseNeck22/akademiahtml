@@ -111,6 +111,10 @@ body::-webkit-scrollbar {
 }
 
 .druhaSekcia {
+  width: 100%;
+}
+
+.druhaSekciaContainer {
   max-width: 1320px;
   margin: 5rem auto;
 }
@@ -159,6 +163,10 @@ body::-webkit-scrollbar {
 }
 
 .tretiaSekcia {
+  width: 100%;
+}
+
+.tretiaSekciaContainer {
   display: flex;
   flex-direction: row;
   max-width: 1320px;
