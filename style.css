@@ -175,7 +175,6 @@ body::-webkit-scrollbar {
 
 .tretiaSekciaText {
   width: 50%;
-  align-items: center;
   color: rgb(98, 122, 167);
 }
 
@@ -297,4 +296,78 @@ body::-webkit-scrollbar {
 .kocka4Text {
   font-size: 18px;
   margin: 0;
+}
+
+.stvrtaSekciaContainer {
+  max-width: 1320px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.stvrtaSekciaNadpis {
+  font-size: 40px;
+  font-weight: 300;
+  width: 30%;
+}
+
+.prvaKarta {
+  width: 15%;
+  padding: 3rem;
+}
+
+.prvaKartaNadpis {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.prvaKartaText {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.prvaKartaSipka {
+  bottom: auto;
+}
+
+.druhaKarta {
+  width: 15%;
+  padding: 3rem;
+}
+
+.druhaKartaNadpis {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.druhaKartaText {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.druhaKartaSipka {
+  bottom: auto;
+}
+
+.tretiaKarta {
+  width: 15%;
+  padding: 3rem;
+}
+
+.tretiaKartaNadpis {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.tretiaKartaText {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.tretiaKartaSipka {
+  bottom: auto;
 }
