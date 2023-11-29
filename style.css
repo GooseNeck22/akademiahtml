@@ -138,27 +138,12 @@ body::-webkit-scrollbar {
   margin: 5rem auto;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
-.prvyBlock {
+.block {
   display: block;
   width: 20rem;
-  margin: auto;
-  justify-content: center;
-}
-
-.druhyBlock {
-  display: block;
-  width: 20rem;
-  margin: auto;
-  justify-content: center;
-}
-
-.tretiBlock {
-  display: block;
-  width: 20rem;
-  margin: auto;
   justify-content: center;
 }
 
@@ -312,7 +297,7 @@ body::-webkit-scrollbar {
   width: 30%;
 }
 
-.prvaKarta {
+.karty {
   width: 15%;
   padding: 3rem;
 }
@@ -332,11 +317,6 @@ body::-webkit-scrollbar {
   bottom: auto;
 }
 
-.druhaKarta {
-  width: 15%;
-  padding: 3rem;
-}
-
 .druhaKartaNadpis {
   font-size: 20px;
   font-weight: normal;
@@ -352,11 +332,6 @@ body::-webkit-scrollbar {
   bottom: auto;
 }
 
-.tretiaKarta {
-  width: 15%;
-  padding: 3rem;
-}
-
 .tretiaKartaNadpis {
   font-size: 20px;
   font-weight: normal;
@@ -370,4 +345,60 @@ body::-webkit-scrollbar {
 
 .tretiaKartaSipka {
   bottom: auto;
+}
+
+.piataSekcia {
+  width: 100%;
+}
+
+.piataSekciaContainer {
+  max-width: 1320px;
+  margin: auto;
+}
+
+.piataSekciaNadpis {
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+}
+
+.skoly {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skola {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skolaImage {
+  width: 100%;
+}
+
+.skolaAdresa {
+  color: rgb(118, 148, 196);
+}
+
+.skolaNadpis {
+  font-size: 20px;
+  width: 60%;
+  margin: 0;
+}
+
+.skolaLink {
+  text-decoration: none;
+  color: #3597ff;
+  font-size: 18px;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.skolaTexty {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-top: 1rem;
 }
