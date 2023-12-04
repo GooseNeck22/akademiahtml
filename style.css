@@ -68,7 +68,7 @@ body::-webkit-scrollbar {
   padding: 0.9rem 1.5rem;
   font-weight: bold;
   font-size: 0.9rem;
-  margin-left: 15rem;
+  margin-left: auto;
 }
 
 .prvaSekcia {
@@ -302,48 +302,18 @@ body::-webkit-scrollbar {
   padding: 3rem;
 }
 
-.prvaKartaNadpis {
+.kartaNadpis {
   font-size: 20px;
   font-weight: normal;
   margin: 0;
 }
 
-.prvaKartaText {
+.kartaText {
   font-size: 14px;
   font-weight: normal;
 }
 
-.prvaKartaSipka {
-  bottom: auto;
-}
-
-.druhaKartaNadpis {
-  font-size: 20px;
-  font-weight: normal;
-  margin: 0;
-}
-
-.druhaKartaText {
-  font-size: 14px;
-  font-weight: normal;
-}
-
-.druhaKartaSipka {
-  bottom: auto;
-}
-
-.tretiaKartaNadpis {
-  font-size: 20px;
-  font-weight: normal;
-  margin: 0;
-}
-
-.tretiaKartaText {
-  font-size: 14px;
-  font-weight: normal;
-}
-
-.tretiaKartaSipka {
+.kartaSipka {
   bottom: auto;
 }
 
@@ -401,4 +371,44 @@ body::-webkit-scrollbar {
   flex-direction: row;
   align-items: flex-end;
   margin-top: 1rem;
+}
+
+.siestaSekcia {
+  background-color: rgb(243, 249, 255);
+}
+
+.siestaSekciaContainer {
+  max-width: 1320px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.siestaSekciaText {
+  width: 40%;
+}
+
+.siestaSekciaPrvyNadpis {
+  font-size: 40px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.siestaSekciaDruhyNadpis {
+  font-size: 40px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.siestaSekciaReview {
+  color: rgb(95, 116, 148);
+}
+
+.siestaSekciaObrazokContainer {
+  width: 50%;
+}
+
+.siestaSekciaObrazok {
+  width: 100%;
+  height: 100%;
 }
