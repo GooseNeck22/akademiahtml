@@ -319,11 +319,13 @@ body::-webkit-scrollbar {
 
 .piataSekcia {
   width: 100%;
+  padding-bottom: 3rem;
 }
 
 .piataSekciaContainer {
   max-width: 1320px;
   margin: auto;
+  padding-bottom: 2rem;
 }
 
 .piataSekciaNadpis {
@@ -375,6 +377,7 @@ body::-webkit-scrollbar {
 
 .siestaSekcia {
   background-color: rgb(243, 249, 255);
+  padding-top: 3rem;
 }
 
 .siestaSekciaContainer {
@@ -382,6 +385,7 @@ body::-webkit-scrollbar {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .siestaSekciaText {
@@ -402,6 +406,28 @@ body::-webkit-scrollbar {
 
 .siestaSekciaReview {
   color: rgb(95, 116, 148);
+  z-index: 1;
+}
+
+.uvodzovky {
+  z-index: 0;
+}
+
+.reviewAutor {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.siestaSekciaMeno {
+  margin: 0;
+  color: rgb(95, 115, 147);
+}
+
+.siestaSekciaHybridLab {
+  margin: 0;
+  color: rgb(99, 119, 150);
+  font-weight: normal;
 }
 
 .siestaSekciaObrazokContainer {
