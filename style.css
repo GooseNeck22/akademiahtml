@@ -402,6 +402,7 @@ body::-webkit-scrollbar {
   font-size: 40px;
   margin: 0;
   font-weight: normal;
+  margin-bottom: 3rem;
 }
 
 .siestaSekciaReview {
@@ -409,24 +410,32 @@ body::-webkit-scrollbar {
   z-index: 1;
 }
 
+.siestaSekciaTextAlign {
+  position: relative;
+}
+
 .uvodzovky {
   z-index: 0;
+  position: absolute;
+  left: -10px;
+  bottom: 70px;
 }
 
 .reviewAutor {
   margin-top: 3rem;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reviewImage {
+  margin-right: 0.5rem;
 }
 
 .siestaSekciaMeno {
   margin: 0;
   color: rgb(95, 115, 147);
-}
-
-.siestaSekciaHybridLab {
-  margin: 0;
-  color: rgb(99, 119, 150);
   font-weight: normal;
 }
 
@@ -437,4 +446,32 @@ body::-webkit-scrollbar {
 .siestaSekciaObrazok {
   width: 100%;
   height: 100%;
+}
+
+.reviewText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sipky {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sipka {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(172, 197, 227);
+  margin: 3px;
+  border-radius: 20%;
+}
+
+.sipkaRotate {
+  transform: scaleX(-1);
 }
