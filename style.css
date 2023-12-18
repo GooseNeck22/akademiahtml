@@ -300,6 +300,7 @@ body::-webkit-scrollbar {
 .karty {
   width: 15%;
   padding: 3rem;
+  position: relative;
 }
 
 .kartaNadpis {
@@ -314,7 +315,8 @@ body::-webkit-scrollbar {
 }
 
 .kartaSipka {
-  bottom: auto;
+  position: absolute;
+  bottom: 5px;
 }
 
 .piataSekcia {
@@ -474,4 +476,54 @@ body::-webkit-scrollbar {
 
 .sipkaRotate {
   transform: scaleX(-1);
+}
+
+.siedmaSekcia {
+  width: 100%;
+}
+
+.siedmaSekciaContainer {
+  max-width: 1320px;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.siedmaSekciaNadpisy {
+  text-align: center;
+}
+
+.siedmaSekciaNadpis {
+  font-size: 40px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.siedmaSekciaDruhyNadpis {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.siedmaSekciaKartyGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.siedmaSekciaKarty {
+  position: relative;
+  padding: 2rem;
+}
+
+.siedmaSekciaKartyNadpis {
+  font-size: 20px;
+}
+
+.siedmaSekciaKartyText {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.siedmaSekciaKartySipka {
+  position: absolute;
+  bottom: 15px;
 }
